@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+width: 90%; ;
+margin: auto;
+
+}
+.header{
+    background-color: #fff;
+    position:fixed;
+    width: 100%;
+    z-index: 9;
+    
+}
+body{
+    background-color: ghostwhite;
+    height: 9999px;
+
+}   
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 70px;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.icon a{
+color: #545BE8;
+text-align: center;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-decoration: none;
+margin-top:10px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+.list ul {
+list-style-type: none;
+gap: 50px;
+    
+}
+.list ul li a{
+color: #101928;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+text-decoration: none;
+  
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20px;
+}
+.button a{
+    border-radius: 10px;
+    border: 0.412px solid #545BE8;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+    
+}
+#login{
+   
+}
+#register{
+    background: #545BE8;
+    color: white;
+}
+.icon{
+    gap: 5px;
+}
+.icon svg{ 
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+
+

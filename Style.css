@@ -265,6 +265,85 @@ border-radius: 25px;
 
 }
 
+.aboutus{
+  padding: 50px 0px;
+  background: linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
+}
+.aboutus-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left-aboutus-side{
+  width: calc((100% - 20px)/2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+}
+.right-aboutus-side{
+  width: calc((100% - 20px)/2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.right-aboutus-side-header{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.right-aboutus-side-views .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.itemaboutus{
+ padding: 0px 10px;
+}
+.left-aboutus-side img{
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  background: url(<path-to-image>), gold 50% / cover no-repeat;
+
+}
+.left-aboutus-side svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+}
+.right-aboutus-side span:nth-child(1){
+  font-size: 20px;
+  color: #F0C932;
+
+}
+.right-aboutus-side-header h2{
+  font-size: 50px;
+  color: #fff;
+
+}
+.right-aboutus-side-header p{
+  color: #DDD;
+
+}
+
+.itemaboutus h2 {
+  color: #F0C932;
+}
+.itemaboutus span {
+  color: #DDD;
+}
+
+
+
+
+
 
 
 
@@ -530,7 +609,7 @@ footer .row {
   transition-duration: 0.4s;
   transition-duration: 0.2s;
 }
-.footer-left-side .social .fecabook:hover {
+.footer-left-side .social .facebook:hover {
   background-color: #4267b2;
   width: 20px;
   height: 20px;
